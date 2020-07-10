@@ -9,10 +9,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.container {
-  position: relative;
-}
-
 .parallax {
   position: absolute;
 }
