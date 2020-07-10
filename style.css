@@ -70,7 +70,17 @@ body {
     background: none;
 }
 .spacer {
-    height: 500px; /* define margin as you see fit */
+    height: 450px; /* define margin as you see fit */
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+@media (max-width: 667px) {
+    .spacer {
+        height: 400px;
+    }
 }
 @keyframes fadeIn {
     0% {
