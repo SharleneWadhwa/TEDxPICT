@@ -72,7 +72,9 @@ body {
 .spacer {
     height: 450px; /* define margin as you see fit */
 }
-
+img.nav-head {
+	width : 10%;
+}
 .text-white {
     color: #fff !important;
 }
