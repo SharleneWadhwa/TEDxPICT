@@ -339,7 +339,7 @@ button::before {
 @media screen and (max-width: 768px)
 {
   .spacer {
-    height: 500px;
+    height: 120px;
   }
   .parallax.floor {
     width: 100%;
