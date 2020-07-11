@@ -336,27 +336,23 @@ button::before {
     color: white;
     font-size: 2.1rem;
 }
-@media screen and (max-width: 768px)
-{
-  .spacer {
-    height: 120px;
-  }
-  .parallax.floor {
-    width: 100%;
-  }
-  .parallax.layer:nth-of-type(2) {
-    width: 100%;
-  }
-  .parallax.layer:nth-of-type(3) {
-    width: 100%;
-  }
-  .parallax.layer:nth-of-type(4) {
-    width: 100%;
-  }
-  .parallax.layer:nth-of-type(5) {
-    width: 100%;
-  }
-  .parallax.layer:nth-of-type(6) {
-    width: 100%;
-  }
+@media screen and (max-width: 768px) {
+    .parallax.floor {
+        width: 100%;
+    }
+    .parallax.layer:nth-of-type(2) {
+        width: 100%;
+    }
+    .parallax.layer:nth-of-type(3) {
+        width: 100%;
+    }
+    .parallax.layer:nth-of-type(4) {
+        width: 100%;
+    }
+    .parallax.layer:nth-of-type(5) {
+        width: 100%;
+    }
+    .parallax.layer:nth-of-type(6) {
+        width: 100%;
+    }
 }
