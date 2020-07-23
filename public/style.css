@@ -489,7 +489,7 @@ button::before {
     width: 50%;
 }
 
-.speaker-info-container{
+.speaker-info-container {
     align-self: center;
 }
 
@@ -543,26 +543,15 @@ button::before {
     text-align: justify;
 } */
 .picture2 {
-    margin: 20px;
-    margin-top: -336px;
-    margin-left: 750px;
-    width: 55vh;
-    height: 75vh;
     border: 5px solid white;
     background: url(images/Akash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: -13px 11px 20px 1px rgba(0, 0, 0);
 }
 .picture3 {
-    margin-left: 600px;
-    margin-top: -469px;
-    width: 40vh;
-    height: 55vh;
     background: url(images/Akash1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: -13px 11px 20px 1px rgba(0, 0, 0);
 }
 .picture4 {
     border: 5px solid white;
@@ -645,7 +634,7 @@ button::before {
     display: flex;
     align-items: center;
     width: 100%;
-    left:3vw;
+    left: 3vw;
 }
 .wrapper .video {
     height: 20vh;
@@ -983,12 +972,6 @@ body .socials > a:hover {
     --scale: 1;
 }
 
-@media (min-width: 1200px){
-.container {
-    width: 1370px;
-}
-
-
 @media (min-width: 768px) {
     .footer-bs .footer-nav,
     .footer-bs .footer-social,
@@ -996,8 +979,6 @@ body .socials > a:hover {
         border-left: solid 1px rgba(255, 255, 255, 0.1);
     }
 }
-
-
 
 @media screen and (max-width: 768px) {
     .parallax.floor {
