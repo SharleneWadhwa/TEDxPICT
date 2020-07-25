@@ -488,12 +488,18 @@ button::before {
     margin: 30px;
     width: 50%;
 }
-
+.ml-0 {
+    margin-left: 0;
+}
+.ml-15 {
+    margin-left: 15em;
+}
 .speaker-info-container {
     align-self: center;
 }
 
-.speaker-picture-main, .speaker-picture-main-1  {
+.speaker-picture-main,
+.speaker-picture-main-1 {
     margin-left: 40px;
     width: 55vh;
     height: 75vh;
@@ -980,6 +986,11 @@ body .socials > a:hover {
     }
 }
 
+@media (min-width: 1200px) {
+    .container {
+        width: 1600px;
+    }
+}
 @media screen and (max-width: 768px) {
     .parallax.floor {
         width: 100%;
@@ -1000,25 +1011,23 @@ body .socials > a:hover {
         width: 100%;
     }
 }
-@media(max-width:1366px)
-{
-
-.speaker-info-container,
-.image-container {
-    margin-left: 40px;
-}
-.speaker-picture-secondary,
-.speaker-picture-secondary-right {
-    margin-top: -380px;
-    margin-bottom: 70px;
-}
-.speaker-picture-main {
-    margin-left: 120px;
-}
-.speaker-picture-main-1{
-    margin-left: 0px;
-}
-.speaker-picture-secondary-right {
-    margin-top: -300px;
-}
+@media (max-width: 1366px) {
+    .speaker-info-container,
+    .image-container {
+        margin-left: 40px;
+    }
+    .speaker-picture-secondary,
+    .speaker-picture-secondary-right {
+        margin-top: -380px;
+        margin-bottom: 70px;
+    }
+    .speaker-picture-main {
+        margin-left: 120px;
+    }
+    .speaker-picture-main-1 {
+        margin-left: 0px;
+    }
+    .speaker-picture-secondary-right {
+        margin-top: -300px;
+    }
 }
