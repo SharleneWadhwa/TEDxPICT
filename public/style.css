@@ -486,13 +486,12 @@ button::before {
 .image-container {
     flex: 1 1 300px; /*  Stretching: */
     margin: 30px;
-    width: 50%;
 }
 .ml-0 {
     margin-left: 0;
 }
-.ml-15 {
-    margin-left: 15em;
+.ml-10 {
+    margin-left: 10em;
 }
 .speaker-info-container {
     align-self: center;
@@ -986,7 +985,7 @@ body .socials > a:hover {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1920px) {
     .container {
         width: 1600px;
     }
