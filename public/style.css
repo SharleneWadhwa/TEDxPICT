@@ -1029,3 +1029,31 @@ body .socials > a:hover {
         margin-top: -300px;
     }
 }
+@media (max-width: 768px) {
+    .speaker-info-container,
+    .image-container {
+        margin-left: 40px;
+    }
+    .speaker-picture-secondary,
+    .speaker-picture-secondary-right {
+        margin-top: -290px;
+        margin-bottom: 40px;
+        width: 30vh;
+        height: 45vh;
+    }
+    .speaker-picture-main {
+        margin-left: 10px;
+        width: 50vh;
+        height: 75vh;
+    }
+    .speaker-picture-main-1 {
+        margin-left: 10px;
+        width: 50vh;
+    }
+    .speaker-picture-secondary-right {
+        margin-top: -300px;
+    }
+    .speaker-picture-secondary-right {
+     margin-left: -3%;
+}
+}
