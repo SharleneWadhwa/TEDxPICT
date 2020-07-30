@@ -519,6 +519,7 @@ button::before {
     margin-left: 35%;
 }
 .picture {
+    border: 5px solid white;
     background: url(images/Prasan.jpg);
     background-size: cover;
     background-repeat: no-repeat;
