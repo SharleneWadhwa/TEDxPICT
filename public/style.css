@@ -488,7 +488,7 @@ button::before {
     margin: 30px;
 }
 .ml-0 {
-    margin-left: 0;
+    margin-left: 0 !important;
 }
 .ml-10 {
     margin-left: 10em;
@@ -516,36 +516,21 @@ button::before {
     margin-bottom: 70px;
 }
 .speaker-picture-secondary-right {
-    margin-left: 50%;
+    margin-left: 35%;
 }
 .picture {
-    margin: 20px;
-    margin-top: -150px;
-    margin-left: 0;
-    width: 50vh;
-    height: 75vh;
     background: url(images/Prasan.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: -13px 11px 20px 1px rgba(0, 0, 0);
 }
 .picture1 {
-    margin-top: 0;
-    margin-left: 220px;
-    width: 40vh;
-    height: 50vh;
     background: url(images/Prasan1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: -13px 11px 20px 1px rgba(0, 0, 0);
 }
-/* .speaker_info,
-.speaker1 {
-    width: 50vh;
-    font-size: 1.1em;
-    margin-left: 32.5vw;
-    text-align: justify;
-} */
+
 .picture2 {
     border: 5px solid white;
     background: url(images/Akash.jpg);
@@ -569,22 +554,12 @@ button::before {
     background-repeat: no-repeat;
 }
 .picture6 {
-    margin: 20px;
-    margin-top: -336px;
-    margin-left: 750px;
-    width: 50vh;
-    height: 75vh;
-    border: 5px solid white;
     background: url(images/Sim.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: -13px 11px 20px 1px rgba(0, 0, 0);
 }
 .picture7 {
-    margin-left: 600px;
-    margin-top: -469px;
-    width: 40vh;
-    height: 50vh;
     background: url(images/Sim1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
