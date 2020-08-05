@@ -159,6 +159,10 @@ body
 	font-size: 3rem;
 }
 
+.navbar .navbar-inverse .navbar-fixed-top .bs-docs-nav{
+  width: 100vw;
+}
+
 .wrapper {
   --color: #1F242D;
   --color-invert: #ffffff;
