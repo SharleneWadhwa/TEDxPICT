@@ -725,7 +725,7 @@ button::before {
     width: 220px;
     height: 40px;
     position: absolute;
-    left: 57vw;
+    left: 30vw;
     right: 0;
     border-radius: 40px;
     z-index: 4;
@@ -797,7 +797,8 @@ button::before {
     -webkit-box-align: center;
     align-items: center;
     width: 100%;
-    margin-left: 50px;
+    margin-left: 10px;
+    transform : scale(0.75)
 }
 .wrapper2 .video {
     height: 20vh;
@@ -1038,12 +1039,12 @@ body .socials > a:hover {
     }
     .speaker-picture-main {
         margin-left: 10px;
-        width: 40vh;
+        width: 34vh;
         height: 75vh;
     }
     .speaker-picture-main-1 {
         margin-left: 40px;
-        width: 40vh;
+        width: 34vh;
     }
     .speaker-picture-secondary-right {
         margin-top: -300px;
