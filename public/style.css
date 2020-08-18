@@ -1032,10 +1032,6 @@ body .socials > a:hover {
         flex-wrap: nowrap;
     }
 
-    .speaker-info-container,
-    .image-container {
-        margin-left: 0 !important;
-    }
     .speaker-picture-secondary,
     .speaker-picture-secondary-right {
         margin-top: -250px;
