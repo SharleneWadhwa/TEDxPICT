@@ -523,7 +523,7 @@ button::before {
     height: 75vh;
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: -13px 11px 20px 1px rgba(0, 0, 0);
+    /*box-shadow: -13px 11px 20px 1px rgba(0, 0, 0);*/
 }
 
 .speaker-picture-secondary,
@@ -531,7 +531,7 @@ button::before {
     margin-top: -500px;
     width: 40vh;
     height: 55vh;
-    box-shadow: -13px 11px 20px 1px rgba(0, 0, 0);
+    /*box-shadow: -13px 11px 20px 1px rgba(0, 0, 0);*/
     margin-bottom: 70px;
 }
 .speaker-picture-secondary-right {
@@ -542,13 +542,13 @@ button::before {
     background: url(images/Prasan.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: -13px 11px 20px 1px rgba(0, 0, 0);
+    /*box-shadow: -13px 11px 20px 1px rgba(0, 0, 0);*/
 }
 .picture1 {
     background: url(images/Prasan1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: -13px 11px 20px 1px rgba(0, 0, 0);
+    /*box-shadow: -13px 11px 20px 1px rgba(0, 0, 0);*/
 }
 
 .picture2 {
@@ -577,13 +577,13 @@ button::before {
     background: url(images/Sim.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: -13px 11px 20px 1px rgba(0, 0, 0);
+   /*box-shadow: -13px 11px 20px 1px rgba(0, 0, 0);*/
 }
 .picture7 {
     background: url(images/Sim1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: -13px 11px 20px 1px rgba(0, 0, 0);
+    /*box-shadow: -13px 11px 20px 1px rgba(0, 0, 0);*/
 }
 .picture8 {
     background: url(images/Prasan.jpg);
@@ -1038,6 +1038,13 @@ body .socials > a:hover {
         margin-top: 30px;
         margin-left: 50px;
     }*/
+    .image-container {
+        margin-bottom: 0px;
+    }
+    .speaker-info-container
+    {
+        margin-top:10px;
+    }
     .speaker-picture-secondary,
     .speaker-picture-secondary-right {
         margin-top: -250px;
@@ -1053,7 +1060,7 @@ body .socials > a:hover {
     .speaker-picture-main-1 {
         margin-left: 40px;
         width: 34vh;
-        height: 55vh;
+        height: 50vh;
     }
     .speaker-picture-secondary-right {
         margin-top: -250px;
