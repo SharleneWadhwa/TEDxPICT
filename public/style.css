@@ -1026,9 +1026,15 @@ body .socials > a:hover {
     }
 }
 @media (max-width: 768px) {
+
+    .reverse{
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+    }
+
     .speaker-info-container,
     .image-container {
-        margin-left: 50px !important;
+        margin-left: 0 !important;
     }
     .speaker-picture-secondary,
     .speaker-picture-secondary-right {
