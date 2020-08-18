@@ -1028,26 +1028,27 @@ body .socials > a:hover {
 @media (max-width: 768px) {
     .speaker-info-container,
     .image-container {
-        margin-left: 40px;
+        margin-left: 50px !important;
     }
     .speaker-picture-secondary,
     .speaker-picture-secondary-right {
-        margin-top: -290px;
+        margin-top: -250px;
         margin-bottom: 40px;
-        width: 30vh;
-        height: 40vh;
+        width: 20vh;
+        height: 30vh;
     }
     .speaker-picture-main {
         margin-left: 10px;
         width: 34vh;
-        height: 75vh;
+        height: 50vh;
     }
     .speaker-picture-main-1 {
         margin-left: 40px;
         width: 34vh;
+        height: 55vh;
     }
     .speaker-picture-secondary-right {
-        margin-top: -300px;
+        margin-top: -250px;
     }
     .speaker-picture-secondary-right {
         margin-left: -3%;
