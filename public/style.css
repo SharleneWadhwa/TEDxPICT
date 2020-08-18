@@ -1032,6 +1032,12 @@ body .socials > a:hover {
         flex-wrap: nowrap;
     }
 
+    /*.speaker-info-container,
+    .image-container {
+        margin: 5px;
+        margin-top: 30px;
+        margin-left: 50px;
+    }*/
     .speaker-picture-secondary,
     .speaker-picture-secondary-right {
         margin-top: -250px;
@@ -1040,7 +1046,7 @@ body .socials > a:hover {
         height: 30vh;
     }
     .speaker-picture-main {
-        margin-left: 10px;
+        margin-left: 20px;
         width: 34vh;
         height: 50vh;
     }
@@ -1055,4 +1061,7 @@ body .socials > a:hover {
     .speaker-picture-secondary-right {
         margin-left: -3%;
     }
+    .ml-0 {
+    margin-left: 20px !important;
+}
 }
