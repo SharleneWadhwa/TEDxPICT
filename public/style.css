@@ -1047,7 +1047,7 @@ body .socials > a:hover {
     }
     .speaker-picture-secondary,
     .speaker-picture-secondary-right {
-        margin-top: -250px;
+        margin-top: -33vh;
         margin-bottom: 40px;
         width: 20vh;
         height: 30vh;
@@ -1063,7 +1063,7 @@ body .socials > a:hover {
         height: 50vh;
     }
     .speaker-picture-secondary-right {
-        margin-top: -250px;
+        margin-top: -33vh;
     }
     .speaker-picture-secondary-right {
         margin-left: -3%;
