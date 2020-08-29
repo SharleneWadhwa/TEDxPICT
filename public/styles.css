@@ -94,7 +94,7 @@ body
     width: 55vh;
     height: 75vh;
     border: 5px solid white;
-	background: url(images/Sim.jpg);
+	background: url(images/Jhanvi1.jpg);
 	box-shadow: -13px 11px 20px 1px rgba(0, 0, 0);
 }
 .picture7
@@ -103,7 +103,7 @@ body
     margin-top: -420px;
     width: 40vh;
     height: 55vh;
-    background: url(images/Sim1.jpg);
+    background: url(images/Jhanvi2.jpg);
     background-size: cover;
     box-shadow: -13px 11px 20px 1px rgba(0, 0, 0);
 }
@@ -124,6 +124,26 @@ body
     width: 40vh;
     height: 55vh;
     background: url(images/Prasan1.jpg);
+    background-size: cover;
+    box-shadow: -13px 11px 20px 1px rgba(0, 0, 0);
+}
+.picture10
+{
+  margin: 20px;
+  margin-top:25px;
+  margin-left: 80px;
+  width: 55vh;
+  height: 75vh;
+  background: url(images/Jhanvi1.jpg);
+  box-shadow: -13px 11px 20px 1px rgba(0, 0, 0);
+}
+.picture11
+{
+  margin-top: -25vh;
+    margin-left: 220px;
+    width: 40vh;
+    height: 55vh;
+    background: url(images/Jhanvi2.jpg);
     background-size: cover;
     box-shadow: -13px 11px 20px 1px rgba(0, 0, 0);
 }
