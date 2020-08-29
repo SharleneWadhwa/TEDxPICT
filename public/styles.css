@@ -86,27 +86,6 @@ body
     background-size: cover;
     box-shadow: -13px 11px 20px 1px rgba(0, 0, 0);
 }
-.picture6
-{
-	margin: 20px;
-    margin-top: -350px;
-    margin-left: 950px;
-    width: 55vh;
-    height: 75vh;
-    border: 5px solid white;
-	background: url(images/Jhanvi1.jpg);
-	box-shadow: -13px 11px 20px 1px rgba(0, 0, 0);
-}
-.picture7
-{
-	margin-left: 800px;
-    margin-top: -420px;
-    width: 40vh;
-    height: 55vh;
-    background: url(images/Jhanvi2.jpg);
-    background-size: cover;
-    box-shadow: -13px 11px 20px 1px rgba(0, 0, 0);
-}
 .picture8
 {
 	margin: 20px;
@@ -134,7 +113,7 @@ body
   margin-left: 80px;
   width: 55vh;
   height: 75vh;
-  background: url(images/Jhanvi1.jpg);
+  background: url(images/Jhanvi1.jpg) cover;
   box-shadow: -13px 11px 20px 1px rgba(0, 0, 0);
 }
 .picture11
