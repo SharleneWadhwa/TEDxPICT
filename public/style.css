@@ -1099,6 +1099,7 @@ body .socials > a:hover {
 		margin-left: 20px !important;
 	}
 }
+
 :root {
 	--src: url(https://images.unsplash.com/photo-1554620121-59e7f3f6e3a4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy);
 	--size: 25vmax;
