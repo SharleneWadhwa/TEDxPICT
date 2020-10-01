@@ -414,8 +414,7 @@ button::before {
 	border-color: transparent;
 }
 
-.footer_end
-{
+.footer_end {
 	font-size: large;
 	text-align: center;
 	color: red;
@@ -1349,60 +1348,48 @@ body .socials > a:hover {
 		text-align: center;
 	}
 
-<<<<<<< HEAD
 	.p_events {
-		height: 6vh;
-		margin: 5vh;
-	}
-}
-=======
-	.p_events
-	{
 		height: 10vh;
 		margin: 0vh;
 	}
 
 	button {
-	font-size: 1rem;
-	padding: 20px 35px;
-	border: 10px solid transparent;
-}
+		font-size: 1rem;
+		padding: 20px 35px;
+		border: 10px solid transparent;
+	}
 
-.footer_butt
-{
-	width: 160px;
-	border: 3px solid #fafaff;
-	background-color: transparent;
-	letter-spacing: 2.5px;
-	margin-bottom: 10px;
-	font-weight: 200px;
-	padding: 5px 5px;
-}
+	.footer_butt {
+		width: 160px;
+		border: 3px solid #fafaff;
+		background-color: transparent;
+		letter-spacing: 2.5px;
+		margin-bottom: 10px;
+		font-weight: 200px;
+		padding: 5px 5px;
+	}
 
-.footer-bs .footer-nav ul.pages li {
-	padding: 5px 0px;
-	letter-spacing: 2px;
-	font-size: small;
-}
+	.footer-bs .footer-nav ul.pages li {
+		padding: 5px 0px;
+		letter-spacing: 2px;
+		font-size: small;
+	}
 
-.footer-bs .footer-nav ul.pages1 li {
-	padding: 5px 0px;
-	letter-spacing: 2px;
-	font-size: x-small;
-	text-align: center;
-	margin-left: -6vh;
-}
+	.footer-bs .footer-nav ul.pages1 li {
+		padding: 5px 0px;
+		letter-spacing: 2px;
+		font-size: x-small;
+		text-align: center;
+		margin-left: -6vh;
+	}
 
-.footer_end
-{
-	font-size: small;
-	text-align: center;
-	color: red;
+	.footer_end {
+		font-size: small;
+		text-align: center;
+		color: red;
+	}
+
+	ul.pages1.aos-init.aos-animate {
+		padding-inline-start: 0px;
+	}
 }
- 
-ul.pages1.aos-init.aos-animate
-{
-	padding-inline-start:0px;
-}
-}
->>>>>>> cfd1aad183e64cf69cf4e3efefe1e94dc317e0f9
