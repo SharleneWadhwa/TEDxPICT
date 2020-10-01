@@ -417,8 +417,7 @@ button::before {
 .footer_end {
 	font-size: large;
 	text-align: center;
-	color: red;
-	text-transform: uppercase;
+	color: #e62b1e;
 	margin-top: 3vh;
 }
 
@@ -501,7 +500,7 @@ button::before {
 	color: white;
 }
 .footer-bs .footer-social a:hover {
-	color: red;
+	color: #e62b1e;
 	text-decoration: none;
 }
 
@@ -1386,7 +1385,7 @@ body .socials > a:hover {
 	.footer_end {
 		font-size: small;
 		text-align: center;
-		color: red;
+		color: #e62b1e;
 	}
 
 	ul.pages1.aos-init.aos-animate {
