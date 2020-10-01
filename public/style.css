@@ -413,6 +413,16 @@ button::before {
 .footer-bs .footer-ns {
 	border-color: transparent;
 }
+
+.footer_end
+{
+	font-size: large;
+	text-align: center;
+	color: red;
+	text-transform: uppercase;
+	margin-top: 3vh;
+}
+
 .footer-bs .footer-brand h2 {
 	margin: 0px 0px 10px;
 }
@@ -426,6 +436,13 @@ button::before {
 	padding: 0px;
 }
 .footer-bs .footer-nav ul.pages li {
+	padding: 5px 0px;
+	letter-spacing: 2px;
+	font-size: large;
+}
+
+.footer-bs .footer-nav ul.pages1 li {
+	list-style: none;
 	padding: 5px 0px;
 	letter-spacing: 2px;
 	font-size: large;
@@ -582,7 +599,6 @@ button::before {
 	background-repeat: no-repeat;
 }
 .picture4 {
-	border: 5px solid white;
 	background: url(images/Medha.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -605,6 +621,7 @@ button::before {
 	/*box-shadow: -13px 11px 20px 1px rgba(0, 0, 0);*/
 }
 .picture8 {
+	border: 5px solid white;
 	background: url(images/Ritviz1.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -753,7 +770,7 @@ button::before {
 	left: 0;
 }
 .wrapper input {
-	width: 600px;
+	width: 220px;
 	height: 40px;
 	position: absolute;
 	left: 30vw;
@@ -1332,8 +1349,60 @@ body .socials > a:hover {
 		text-align: center;
 	}
 
+<<<<<<< HEAD
 	.p_events {
 		height: 6vh;
 		margin: 5vh;
 	}
 }
+=======
+	.p_events
+	{
+		height: 10vh;
+		margin: 0vh;
+	}
+
+	button {
+	font-size: 1rem;
+	padding: 20px 35px;
+	border: 10px solid transparent;
+}
+
+.footer_butt
+{
+	width: 160px;
+	border: 3px solid #fafaff;
+	background-color: transparent;
+	letter-spacing: 2.5px;
+	margin-bottom: 10px;
+	font-weight: 200px;
+	padding: 5px 5px;
+}
+
+.footer-bs .footer-nav ul.pages li {
+	padding: 5px 0px;
+	letter-spacing: 2px;
+	font-size: small;
+}
+
+.footer-bs .footer-nav ul.pages1 li {
+	padding: 5px 0px;
+	letter-spacing: 2px;
+	font-size: x-small;
+	text-align: center;
+	margin-left: -6vh;
+}
+
+.footer_end
+{
+	font-size: small;
+	text-align: center;
+	color: red;
+}
+ 
+ul.pages1.aos-init.aos-animate
+{
+	padding-inline-start:0px;
+}
+}
+>>>>>>> cfd1aad183e64cf69cf4e3efefe1e94dc317e0f9
