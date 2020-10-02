@@ -381,6 +381,11 @@ button::before {
 	font-weight: normal;
 }
 
+.jumbotron p
+{
+	font-weight: normal;
+}
+
 .mt-5 {
 	margin-top: 5rem;
 }
@@ -1384,7 +1389,8 @@ body .socials > a:hover {
 .footer-bs .footer-nav ul.pages li {
 	padding: 5px 0px;
 	letter-spacing: 2px;
-	font-size: small;
+	font-size:x-small;
+	text-align: center;
 }
 
 .footer-bs .footer-nav ul.pages1 li {
@@ -1392,7 +1398,6 @@ body .socials > a:hover {
 	letter-spacing: 2px;
 	font-size: x-small;
 	text-align: center;
-	margin-left: -6vh;
 }
 
 .footer_end
@@ -1406,4 +1411,8 @@ ul.pages1.aos-init.aos-animate
 {
 	padding-inline-start:0px;
 }
+
+.footer-bs {
+    padding: 40px 20px;
+    }
 }
