@@ -381,8 +381,7 @@ button::before {
 	font-weight: normal;
 }
 
-.jumbotron p
-{
+.jumbotron p {
 	font-weight: normal;
 }
 
@@ -1373,21 +1372,6 @@ body .socials > a:hover {
 		padding: 5px 5px;
 	}
 
-<<<<<<< HEAD
-.footer-bs .footer-nav ul.pages li {
-	padding: 5px 0px;
-	letter-spacing: 2px;
-	font-size:x-small;
-	text-align: center;
-}
-
-.footer-bs .footer-nav ul.pages1 li {
-	padding: 5px 0px;
-	letter-spacing: 2px;
-	font-size: x-small;
-	text-align: center;
-}
-=======
 	.footer-bs .footer-nav ul.pages li {
 		padding: 5px 0px;
 		letter-spacing: 2px;
@@ -1401,7 +1385,6 @@ body .socials > a:hover {
 		text-align: center;
 		margin-left: -6vh;
 	}
->>>>>>> 649c486b6acd04ff74e6bddb45a26f6ef2229f52
 
 	.footer_end {
 		font-size: small;
@@ -1413,11 +1396,3 @@ body .socials > a:hover {
 		padding-inline-start: 0px;
 	}
 }
-<<<<<<< HEAD
-
-.footer-bs {
-    padding: 40px 20px;
-    }
-}
-=======
->>>>>>> 649c486b6acd04ff74e6bddb45a26f6ef2229f52
