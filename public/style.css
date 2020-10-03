@@ -1371,11 +1371,11 @@ body .socials > a:hover {
 		font-weight: 200px;
 		padding: 5px 5px;
 	}
-
 	.footer-bs .footer-nav ul.pages li {
 		padding: 5px 0px;
 		letter-spacing: 2px;
-		font-size: small;
+		font-size: x-small;
+		text-align: center;
 	}
 
 	.footer-bs .footer-nav ul.pages1 li {
@@ -1383,16 +1383,36 @@ body .socials > a:hover {
 		letter-spacing: 2px;
 		font-size: x-small;
 		text-align: center;
-		margin-left: -6vh;
+	}
+
+	.footer-bs .footer-nav ul.pages li {
+		padding: 5px 0px;
+		letter-spacing: 2px;
+		font-size: x-small;
+	}
+
+	.footer-bs .footer-nav ul.pages1 li {
+		padding: 5px 0px;
+		letter-spacing: 2px;
+		font-size: x-small;
+		text-align: center;
 	}
 
 	.footer_end {
-		font-size: small;
+		font-size: x-small;
 		text-align: center;
 		color: #e62b1e;
 	}
 
 	ul.pages1.aos-init.aos-animate {
 		padding-inline-start: 0px;
+	}
+
+	.footer-bs .footer-social ul {
+		padding: revert;
+	}
+
+	.footer-bs {
+		padding: 40px 20px;
 	}
 }
