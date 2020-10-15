@@ -328,6 +328,18 @@ button::before {
 	border-radius: 3px;
 }
 
+a.shrink-border {
+	position: relative;
+	border: none;
+	font-size: 2rem;
+	transition: color 0.5s, transform 0.2s, background-color 0.2s;
+	outline: none;
+	font-weight: 600;
+	letter-spacing: 0.3;
+	border-radius: 3px;
+	padding: 20px 35px;
+	border: 10px solid transparent;
+}
 .shrink-border {
 	background-color: transparent;
 	color: white;
@@ -381,8 +393,7 @@ button::before {
 	font-weight: normal;
 }
 
-.jumbotron p
-{
+.jumbotron p {
 	font-weight: normal;
 }
 
@@ -1372,19 +1383,19 @@ body .socials > a:hover {
 		font-weight: 200px;
 		padding: 5px 5px;
 	}
-.footer-bs .footer-nav ul.pages li {
-	padding: 5px 0px;
-	letter-spacing: 2px;
-	font-size:x-small;
-	text-align: center;
-}
+	.footer-bs .footer-nav ul.pages li {
+		padding: 5px 0px;
+		letter-spacing: 2px;
+		font-size: x-small;
+		text-align: center;
+	}
 
-.footer-bs .footer-nav ul.pages1 li {
-	padding: 5px 0px;
-	letter-spacing: 2px;
-	font-size: x-small;
-	text-align: center;
-}
+	.footer-bs .footer-nav ul.pages1 li {
+		padding: 5px 0px;
+		letter-spacing: 2px;
+		font-size: x-small;
+		text-align: center;
+	}
 
 	.footer-bs .footer-nav ul.pages li {
 		padding: 5px 0px;
@@ -1409,13 +1420,11 @@ body .socials > a:hover {
 		padding-inline-start: 0px;
 	}
 
-	.footer-bs .footer-social ul
-	{
+	.footer-bs .footer-social ul {
 		padding: revert;
 	}
 
-.footer-bs {
-    padding: 40px 20px;
-    }
+	.footer-bs {
+		padding: 40px 20px;
+	}
 }
-
