@@ -11,7 +11,78 @@ body {
 	overflow-x: hidden;
 	font-family: 'Montserrat', sans-serif;
 }
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    background: #050505;
+    z-index: 999999;
+    height: 100%;
+    width: 100%;
+}
+.sk-cube-grid {
+  width: 60px;
+  height: 60px;
+  margin: 100px auto;
+}
 
+.sk-cube-grid .sk-cube {
+  width: 33%;
+  height: 33%;
+  background-color: red;
+  float: left;
+  -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+          animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
+}
+.sk-cube-grid .sk-cube1 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+.sk-cube-grid .sk-cube2 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s; }
+.sk-cube-grid .sk-cube3 {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s; }
+.sk-cube-grid .sk-cube4 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s; }
+.sk-cube-grid .sk-cube5 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+.sk-cube-grid .sk-cube6 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s; }
+.sk-cube-grid .sk-cube7 {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s; }
+.sk-cube-grid .sk-cube8 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s; }
+.sk-cube-grid .sk-cube9 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+
+@-webkit-keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  } 35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1); 
+  }
+}
+
+@keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  } 35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1);
+  } 
+}
 .parallax {
 	position: absolute;
 	overflow: hidden;
@@ -381,6 +452,246 @@ a.shrink-border {
 	opacity: 1;
 	transform: scaleX(1) scaleY(1);
 }
+
+.butt1 {
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin-top: 25px;
+}
+
+a.shrink-border1 {
+	position: relative;
+	border: none;
+	font-size: 2.2rem;
+	transition: color 0.5s, transform 0.2s, background-color 0.2s;
+	outline: none;
+	font-weight: 600;
+	letter-spacing: 0.3;
+	border-radius: 3px;
+	padding: 20px 5px;
+	border: 10px solid transparent;
+}
+.shrink-border1 {
+	background-color: transparent;
+	color: black;
+	width: 300px;
+}
+.shrink-border1:hover {
+	background-color: transparent;
+	box-shadow: none;
+	color: red;
+}
+.shrink-border1::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 3px solid black;
+	transition: opacity 0.3s, border 0.3s;
+}
+.shrink-border1:hover::before {
+	opacity: 0;
+}
+.shrink-border1::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	border: 3px solid red;
+	opacity: 0;
+	z-index: -1;
+	transform: scaleX(1.1) scaleY(1.3);
+	transition: transform 0.3s, opacity 0.3s;
+}
+
+button1 {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+button1.learn-more {
+  width: 35rem;
+  height: auto;
+  margin-top: 10px;
+}
+button1.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 4rem;
+  height: 4rem;
+  background: #cc0000;
+  border-radius: 4.625rem;
+}
+button1.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+button1.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 1.125rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+button1.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: '';
+  top: -0.25rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+}
+button1.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 2.85rem;
+  color: white;
+  letter-spacing: 0.1rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+button1:hover .circle {
+  width: 100%;
+}
+button1:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+}
+button1:hover .button-text {
+  color: black;
+}
+
+button2 {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+button2.learn-more {
+  width: 35rem;
+  height: auto;
+  margin-top: 10px;
+}
+button2.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 4rem;
+  height: 4rem;
+  background: #cc0000;
+  border-radius: 4.625rem;
+}
+button2.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+button2.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 1.125rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+button2.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: '';
+  top: -0.25rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+}
+button2.learn-more .button1-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 2.85rem;
+  color: black;
+  letter-spacing: 0.1rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+button2:hover .circle {
+  width: 100%;
+}
+button2:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+}
+button2:hover .button1-text {
+  color: white;
+}
+
+.shrink-border1:hover::after {
+	opacity: 1;
+	transform: scaleX(1) scaleY(1);
+}
+
+.count
+{
+  font-size:5em;
+  font-weight: 600;
+  color: red;
+  text-align:center;
+}
+
+.counter
+{
+	display: flex;
+}
+
 .jumbotron {
 	margin-bottom: 0;
 }
@@ -431,7 +742,7 @@ a.shrink-border {
 }
 
 .footer_end {
-	font-size: large;
+	font-size: 2rem;
 	text-align: center;
 	color: #e62b1e;
 	margin-top: 3vh;
@@ -1434,5 +1745,21 @@ ul.pages.aos-init.aos-animate {
 
 	.footer-bs {
 		padding: 40px 20px;
+	}
+
+	button1.learn-more {
+	  width: 30rem;
+	}
+		
+	button1.learn-more .button-text {
+	  font-size: 1.5rem;
+	}
+
+	button2.learn-more {
+	  width: 30rem;
+	}
+		
+	button2.learn-more .button1-text {
+	  font-size: 1.5rem;
 	}
 }
